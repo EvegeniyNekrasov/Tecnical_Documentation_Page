@@ -1,2 +1,2 @@
-# Tecnical_Documentation_Page
+# Technical_Documentation_Page
 freeCodeCamp Project
