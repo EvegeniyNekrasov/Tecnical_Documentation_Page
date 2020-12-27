@@ -79,10 +79,38 @@ code {
   word-break: normal;
   word-wrap: normal;
   line-height: 3;
-  background-color: rgb(233, 176, 176);
+  background-color: rgb(242, 211, 211);
   padding: 15px;
   margin: 10px;
   border-radius: 8px;
+}
+
+table {
+  width: 500px;
+}
+
+th {
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #ddd;
 }
 
 @media only screen and (max-width: 815px) {
